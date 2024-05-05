@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@media(max-width: 769px){
+    .UpComItem{
+        width: 400px;
+    height: 300px;
+    margin: 10px;
+    }
+
+    .UpComItemsBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logo{
+        width: 30px;
+        height: 30px;
+    
+    }
+} 
+@media(max-width: 500px){
+    .UpComItem{
+        max-width: 300px;
+    height: 200px;
+    margin: 10px;
+    }
+} 
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #363c42;
+    background-color: #4d565e ; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #363c42; 
+    border-radius: 50px;
+   
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #363c42; 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Jura;
+}
+body{
+    background:linear-gradient(90.96deg, rgba(217, 217, 217, 0) 0.77%, rgba(139, 106, 106, 0.5) 112.01%);
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background:linear-gradient(90.96deg, rgba(217, 217, 217, 0) 0.77%, rgba(139, 106, 106, 0.5) 112.01%);
+}
+header{
+    width: 100%;
+    height: 11.5%;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color:#1413134D;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: #00c0fc;
+}
+.Logo{
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    position: relative;
+
+}
+.furstItBox{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.secondItBox{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+.itemsBox{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.headerItem{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 1.5vw;
+    transition: 0.5s;
+}
+a:hover{
+color:#ba9999;
+}
+.hedItLine{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #fff;
+    position: relative;
+}
+
+.LogBox{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: relative;
+}
+.fa-magnifying-glass{
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+    display: flex;
+    position: relative;
+    margin-left: -10px;
+}
+.headBut{
+    width: 90px;
+    height: 23px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+select{
+    border: none;
+    text-decoration: none;
+    background-color:transparent;
+    box-shadow: none;
+    position: relative;
+    user-select: none;
+    color: white;
+}
+select :after{
+    content: '';
+}
+.mySwiper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.SwPgLine{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+   
+}
+  .swiper-pagination .swiper-pagination-bullet {
+    width: 30px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+
+.swiper-slide{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.swiper-slide p{
+    font-size: 30px;
+    font-weight: 600;
+color: #ffffff6f;
+}
+.textSwBox{
+    width: 400px;
+    height: 95%;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.textSwBox p{
+color: #fff;
+}
+.Slide1{
+    background-image: url(./img/sw1Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Slide2{
+    background-image: url(./img/sw2Backgoround.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Slide3{
+    background-image: url(./img/sw3Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+  i{
+    font-size: 17px;
+  }
+.headHeart:hover{
+color: rgb(255, 0, 0);
+opacity: 1;
+}
+select{
+    cursor: pointer;
+}
+.headGlass:hover{
+color: black;
+}
+
+.AboutLviv{
+    width: 100%;
+    min-height: 127vh;
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(90.96deg, rgba(217, 217, 217, 0) 0.77%, rgba(139, 106, 106, 0.5) 112.01%);
+}
+.AboutInfBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+.AboutInf{
+    width: 850px;
+    height: 100px;
+    display: flex;
+    border-radius: 90px;
+    align-items: center;
+    padding-right: 45px;
+    z-index:10;
+    margin-top: 30px;
+    position: relative;
+    background:linear-gradient(90.96deg, rgba(217, 217, 217, 0) 0.77%, rgba(139, 106, 106, 0.5) 112.01%);
+    font-weight: 700;
+}
+.AboutIconsBox{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.AboutIconsLine{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.AboutIcon{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.AboutIcon:hover{
+    transition: 0.5s;
+    background-color:rgba(207, 189, 189, 0.5);
+}
+.AboutIcon img{
+    width: 56px;
+    height: 56px;
+    display: flex;
+}
+.AboutPhotoBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.AboutLvPhoto{
+    cursor: pointer;
+    z-index: 0;
+    transition: 1s;
+    background-position: center;
+    background-size:400px;
+}
+.AboutLvPhoto1{
+    width: 250px;
+    height: 800px;
+    background-size:310px;
+}
+.AboutLvPhoto2{
+    width: 250px;
+    height: 450px;
+    background-size:310px;
+}
+.AboutLvPhoto3{
+    width: 250px;
+    height: 600px;
+    background-size:300px;
+}
+.AboutLvPhoto1:hover{
+    height: 850px;
+}
+.AboutLvPhoto2:hover{
+    height: 500px;
+}
+.AboutLvPhoto3:hover{
+    height: 650px;
+}
+.UpcomingEvents{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:linear-gradient(90.96deg, rgba(217, 217, 217, 0) 0.77%, rgba(139, 106, 106, 0.5) 112.01%);
+}
+.UpComLogoBox{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 50px;
+    top: 20%;
+}
+.AllEvLogBox{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.AllEvLogBox img{
+    width: 22px;    
+    height: 22px;
+    display: flex;
+}
+
+.AllEvLog{
+    font-size: 5vw;
+    color: #8B6A6A
+}
+
+.exploreText{
+    font-size: 30px;
+    font-weight: 900;
+}
+.UpComSelectBox{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.UpComSelectBox p{
+    color: #6C6C6C;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+
+.mySwiper{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+  .UpComItemLogBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.UpComItemLog{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-around;
+}
+.UpComItemLogOval{
+    width: 12px;
+    height: 12px;
+    display: flex;
+    border-radius: 50%;
+}
+.mySwiper2{
+    width: 95%;
+    height: 500px;
+    background-position: center;
+}
+.swBox{
+    min-width: 0;
+}
+#Sw2Sl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.SWLogLine{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.SWLogLine{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.SwLogBox{
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.SwLogBox p{
+ font-size: 16px;
+ color: #fff;
+ opacity: 0.7;
+}
+.ConsOval{
+    width: 13px;
+    height: 13px;
+    display: flex;
+    border-radius: 50%;
+}
+.SwInfLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.SwInfBox{
+    flex-direction: column;
+    text-align: start;
+}
+.SwLocateBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.SwLocateBox p{
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.7;
+}
+#Sw1Sl{
+    width: 100%;
+    min-height: 100vh;
+}
